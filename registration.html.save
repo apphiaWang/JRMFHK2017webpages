@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>CSCIT 2015</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <!-- <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'> -->
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">CSCIT 2015</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="./index.html">Home</a></li>
+			<li class="active"><a href="./registration.html">Registration</a></li>
+            <li><a href="./program.html">Program</a></li>
+            <li><a href="./logistic.html">Venue & Travel</a></li>
+			<li><a href="./organization.html">Organization</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+	<div class="container">
+		<br><br><br><br>
+		
+		<div class="row">
+          <div class="col-lg-10">
+            <div class="panel panel-info">
+				<!--<div class="panel-heading">
+					<h3 class="panel-title">Registration Closed</h3>
+				</div>-->
+				<div class="panel-body">
+					<!--<div class="col-sm-2">
+						<img src="img/shannon.jpg" class="thumbnail" alt="Shannon">
+					</div>-->
+					<h4>Information</h4>
+					<p>TBD</p>
+<!--					<ul>
+						<li>This summer school accepts 30 local participants and 30 non-local participants.</li>
+						<li>All participants are required to stay in CUHK campus. <font style="color:red">Please note, to foster interaction among participants, ALL participants (INCLUDING local Hong Kong participants) will be provided accommodation in on-campus housing, and will be expected to stay there for the duration of the Summer Course)</font></li>
+						<li>Registration requires submission of <strong>a 1-page paper abstract and a poster</strong>. 
+							<ul>
+								<li>The one-page abstract may be original/unpublished, or may be already published work -- no proceedings will be generated -- this abstract is only for the purpose of participant selection.</li>
+								<li>The poster should contain some exposition of the submitted abstract, and be related to it.</li>
+								<li>We encourage more junior graduate students, who do not yet have original research to present at the summer school, to submit a "tutorial-style" presentation on some topic of interest to the student.</li>
+							</ul>
+						</li>
+						<li>Accepted participants will be notified and registered to the workshop.</li>
+						<li>The registration fee is HKD800 per person.</li>
+						<li>Financial support may be provided for non-local participants in the form of (partial) reimbursement of travel costs (airfare or train fare).</li>
+					</ul> -->
+					<br>
+					
+					<h4>Important Dates</h4>
+					<p>TBD</p>
+				<!--	<ul>
+						<li><strong>Paper submission deadline:</strong> <strike>30th April 2015</strike></li>
+						<li><strong>Notification of acceptance:</strong> 4th May 2015</li>
+						<li>Deadline to complete the registration and paying the registration fee: 11th May 2015<br>(Reference of ISIT 2015: Notification - 31 March)</li>
+					</ul> -->
+					<br>
+					
+					<h4>Registration</h4>
+					
+<ul>
+						<!--<li>Submit your <a href="https://docs.google.com/forms/d/1hfclwABovMeRNvn6OVWdIQMXEVZKeN_sy1_r6Z2DDQc/viewform">application form</a>.</li>-->
+						<li>Upload your poster <a href="https://script.google.com/macros/s/AKfycbxu-IhNTWYCo_DV8ocarxCv7AKS9pb5RNHY2GUo-kAV/dev">here</a>.</li>
+					</ul>
+				</div>
+			</div>
+          </div>
+          
+        </div>
+	  
+	</div>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="./dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
