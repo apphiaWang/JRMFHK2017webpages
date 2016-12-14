@@ -1,0 +1,279 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EASIT 2014</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <!-- <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'> -->
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">EASIT 2014</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="./index.html">Home</a></li>
+			<li class="active"><a href="./registration.html">Registration</a></li>
+            <li><a href="./program.html">Program</a></li>
+            <li><a href="./logistic.html">Venue & Travel</a></li>
+			<li><a href="./organization.html">Organization</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+	<div class="container">
+		<br><br><br><br>
+		
+		<div class="row">
+          <div class="col-lg-6">
+            <div class="well">
+              <form class="form-horizontal" method="POST" enctype="multipart/form-data" action="add_process.php">
+                <fieldset>
+                  
+					<!-- Form Name -->
+					<legend>Registration Form</legend>
+					
+					<!-- Alert-->
+					<div class="col-lg-12">
+						<div class="alert alert-dismissable alert-danger">
+							<button type="button" class="close" data-dismiss="alert">&times;</button>
+							The online registration is closed and if you want to attend the workshop, please contact <a href="mailto:easit2014@gmail.com">easit2014@gmail.com</a>.
+						</div>
+					</div>
+					
+					<!--<div class="col-lg-12">
+						<p>You can find Visa information at <a href="./logistic.html">Venue & Travel</a>.</p>
+						<p><small><font color="red">* Required</font></small></p>
+					</div>-->
+					
+					<!-- Select Basic -->
+					<div class="form-group">
+						<label for="select" class="col-lg-3 control-label">Title*</label>
+						<div class="col-lg-9">
+							<select class="form-control" id="title" name="title">
+								<option>Prof.</option>
+								<option>Dr.</option>
+								<option>Mr.</option>
+								<option>Ms.</option>
+							</select>
+						</div>
+					</div>
+					
+					<!-- Text input-->
+					<div class="form-group">
+						<label class="col-lg-3 control-label">First Name*</label>
+						<div class="col-lg-9">
+							<input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name" required />
+						</div>
+					</div>
+					
+					<!-- Text input-->
+					<div class="form-group">
+						<label class="col-lg-3 control-label">Last Name*</label>
+						<div class="col-lg-9">
+							<input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name" required />
+						</div>
+					</div>
+					
+					<!-- Select Basic -->
+					<div class="form-group">
+						<label for="select" class="col-lg-3 control-label">Gender*</label>
+						<div class="col-lg-9">
+							<select class="form-control" id="gender" name="gender">
+								<option>Male</option>
+								<option>Female</option>
+							</select>
+							<small><font color="grey">This is needed to arrange housing.</font></small>
+						</div>
+					</div>
+					
+					<!-- Text input-->
+					<div class="form-group">
+						<label class="col-lg-3 control-label">Affiliation*</label>
+						<div class="col-lg-9">
+							<input type="text" class="form-control" id="affiliation" name="affiliation" placeholder="Affiliation" required />
+						</div>
+					</div>
+					
+					<!-- Select Basic -->
+					<div class="form-group">
+						<label for="select" class="col-lg-3 control-label">Position*</label>
+						<div class="col-lg-9">
+							<select class="form-control" id="position" name="position">
+								<option>Student</option>
+								<option>Postdoc</option>
+								<option>Professor</option>
+								<option>Others</option>
+							</select>
+						</div>
+					</div>
+
+					<!-- Text input-->
+					<div class="form-group">
+						<label for="inputEmail" class="col-lg-3 control-label">Email*</label>
+						<div class="col-lg-9">
+							<input type="email" class="form-control" id="email" name="email" placeholder="Email" required />
+						</div>
+					</div>
+					
+					<!-- Text input-->
+					<div class="form-group">
+						<label for="inputEmail" class="col-lg-3 control-label">Research Interest</label>
+						<div class="col-lg-9">
+							<input type="text" class="form-control" id="resint" name="resint" placeholder="Research Interest">
+						</div>
+					</div>
+					
+					<!-- Text input-->
+					<div class="form-group">
+						<label for="inputEmail" class="col-lg-3 control-label">IT Soc/IEEE membership</label>
+						<div class="col-lg-9">
+							<input type="text" class="form-control" id="mbsp" name="mbsp" placeholder="Input membership number if any">
+						</div>
+					</div>
+					
+					<!-- Alert-->
+					<div class="col-lg-12">
+						<div class="alert alert-dismissable alert-info">
+							<button type="button" class="close" data-dismiss="alert">&times;</button>
+							Payment will be at the venue, in <strong>cash</strong>. Please come prepared with change in HK Dollars. Money exchange service is available in banks and ATMs. More info can be found at <a href="http://www.hongkongairport.com/eng/passenger/arrival/t1/airport-services-facilities/money-exchange-bank.html">HKIA</a>.
+						</div>
+					</div>
+					
+					<!-- Alert-->
+					<div class="col-lg-12">
+						<div class="alert alert-dismissable alert-warning">
+							<button type="button" class="close" data-dismiss="alert">&times;</button>
+							Please note that the cost of (<a href="http://www.ieee.org/membership_services/membership/join/index.html">IT Society membership</a> + registration as an IT Society member) is less than the cost of registration without IT Society membership.
+						</div>
+					</div>			
+				
+					<!-- Radio-->
+					<div class="form-group">
+						<label class="col-lg-3 control-label">Payment*</label>
+						<div class="col-lg-9">
+						
+							<table class="table table-bordered">
+								<thead>
+									<tr>
+										<th>IT Soc Member</th>
+										<th>Non-member</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											<div class="radio">
+												<label>
+												  <input type="radio" name="paytype" id="paytype1m" value="300" unchecked disabled required />
+												  HKD 300 for registration
+												</label>
+											</div>
+										</td>
+										<td>
+											<div class="radio">
+												<label>
+												  <input type="radio" name="paytype" id="paytype2n" value="650" unchecked disabled>
+												  HKD 650 for registration
+												</label>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="radio">
+												<label>
+													<input type="radio" name="paytype" id="paytype1m" value="600" unchecked disabled>
+													<ul class="tooltip-examples list-inline">
+														HKD 600 for registration plus 5 night accommodation in <a href="#" data-toggle="tooltip" data-original-title="Default accommodation for student/postdoc participants. It is a student dormitory in the CUHK campus.">I-house</a>
+													</ul>
+												</label>
+											</div>
+										</td>
+										<td>
+											<div class="radio">
+												<label>
+													<input type="radio" name="paytype" id="paytype2n" value="900" unchecked disabled>
+													<ul class="tooltip-examples list-inline">
+														HKD 900 for registration plus 5 night accommodation in <a href="#" data-toggle="tooltip" data-original-title="Default accommodation for student/postdoc participants. It is a student dormitory in the CUHK campus.">I-house</a>
+													</ul>
+												</label>
+											</div>
+										</td>
+									</tr>
+								</tbody>
+							</table>				
+							
+						</div>
+					</div>
+
+					<!-- Button -->
+					<div class="form-group">
+						<div class="col-lg-9 col-lg-offset-3">
+							<button id="reset" name="reset" type="reset" class="btn btn-default">Reset</button>
+							<button id="submit" name="submit" type="submit" class="btn btn-primary">Submit</button>
+						</div>
+					</div>				  
+				  
+                </fieldset>
+              </form>
+            </div>
+          </div>
+          
+        </div>
+	  
+	</div>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="./dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		/*$('#resint').click(function(){
+            if($(this).value == ""){
+                 $('#paytype1m').disabled=true;   
+            } else {
+                $('#paytype1m').disabled=false;
+            }
+        });*/
+		
+		$(".tooltip-examples a").tooltip({
+			placement : 'top'
+		});
+	</script>
+  </body>
+</html>

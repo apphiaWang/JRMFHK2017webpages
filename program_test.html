@@ -1,0 +1,335 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>CSCIT 2015</title>
+	
+    <link href="css/docs.css" rel="stylesheet" />
+    <link href="css/tribal-bootstrap.css" rel="stylesheet" />
+    <link href="css/tribal-timetable.css" rel="stylesheet" />
+	
+	<!-- Bootstrap core CSS -->
+    <link href="./dist/css/bootstrap.css" rel="stylesheet">
+	
+	<!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'> -->
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->	
+  </head>
+
+  <body data-spy="scroll" data-target="#myScrollspy">
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">CSCIT 2015</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="./index.html">Home</a></li>
+			<li><a href="./registration.html">Registration</a></li>
+            <li class="active"><a href="./program.html">Program</a></li>
+            <li><a href="./logistic.html">Venue & Travel</a></li>
+			<li><a href="./organization.html">Organization</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+	<div class="container">
+      <div class="content">
+		  <div class="row">
+			<div class="col-lg-10 col-sm-10 col-xs-8">
+				<!--<h3 id="Resources">Resources</h3>
+				<ul>
+					<li><p>Discussion board (login required) are available at <a href="https://piazza.com/easit/summer2014/easit2014/home">Piazza</a>.</p></li>
+					<li><p>You can find lecture notes either in the <a href="#Speakers">Speakers</a> section below, or Resources page of <a href="https://piazza.com/easit/summer2014/easit2014/resources">Piazza</a>.</p></li>
+					<li><p>Links to the lecture videos are provided in the <a href="#Program">Program</a> section below.</p></li>
+				</ul>-->
+				
+				<h3 id="Speakers">Speakers</h3>
+				<div class="panel-group" id="accordion">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#Speaker1">Robert Calderbank</a>
+							</h4>
+						</div>
+						<div id="Speaker1" class="panel-collapse collapse">
+							<div class="panel-body">
+							<p class="lead"><strong>Topic: </strong>The Art of Measurement</p>
+							<p><strong>Abstract: </strong>The central goal of compressed sensing is to capture attributes of a signal using very few measurements. In most work to date this broader objective is exemplified by the important special case of classification or reconstruction from a small number of linear measurements. In the first part of this talk we use wireless information theory to derive fundamental limits on compressive classification, on the maximum number of classes that can be discriminated with low probability of error and on the tradeoff between the number of classes and the probability of misclassification. In the second part we describe how to use information theory to guide the design of linear measurements by maximizing mutual information between the measurements and the statistics of the source.</p>
+							<p><strong>Biography: </strong>Robert Calderbank is Director of the Information Initiative at Duke University, where he is Professor of Mathematics and Electrical Engineering. Prior to joining Duke as Dean of Natural Sciences in 2010, he directed the Program in Applied and Computational Mathematics at Princeton University. Prior to joining Princeton in 2004 he was Vice President for Research at AT&T, in charge of what may have been the first industrial research lab where the primary focus was Big Data.</p>
+							<p>Professor Calderbank is well known for contributions to voiceband modem technology, to quantum information theory, and for co-invention of space-time codes for wireless communication. His research papers have been cited more than 30,000 times and his inventions are found in billions of consumer devices. Professor Calderbank was elected to the National Academy of Engineering in 2005 and has received a number of awards, including the 2013 IEEE Hamming Medal for his contributions to information transmission, and the 2015 Claude E. Shannon Award.</p>
+							<p><strong>Homepage: </strong><a href="http://www.ee.duke.edu/faculty/robert-calderbank">www.ee.duke.edu/faculty/robert-calderbank</a></p>
+							</div>
+						</div>
+					</div>	
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#Speaker2">Navin Kashyap</a>
+							</h4>
+						</div>
+						<div id="Speaker2" class="panel-collapse collapse">
+							<div class="panel-body">
+							<p class="lead"><strong>Topic: </strong>A Beginner's Guide to Lattice Coding</p>
+							<p><strong>Abstract: </strong>Lattice codes may be viewed as linear codes designed for use over Gaussian-noise channels, and more generally, channels with real-valued input and output alphabets. It is by now well-established that lattice codes can achieve the capacity of the additive white Gaussian noise (AWGN) channel. Lattice coding schemes also provide the best-known achievable rates in many multi-user communication settings. They form the basis of the compute-and-forward strategy that lies at the heart of physical-layer (wireless) network coding. Beyond reliability of communication, lattice-based coding schemes have also been proposed for information-theoretically secure communication. </p>
+							<p>Lattice codes stand today where algebraic codes were about 25 years back. They have been shown to be theoretically capable of providing the best rates for reliable (and secure) communication in many AWGN settings, but they have struggled to fulfill their potential in practice. The main stumbling block has been finding low-complexity implementations of encoders and decoders for lattice codes in high dimensions. </p>
+							<p>In this tutorial, we will give an overview of the theory and applications of lattice codes. We will begin with the necessary mathematical definitions and background for lattices. The earliest application of lattices in the information-theoretic context is in vector quantization, which we will briefly describe. The main focus of the tutorial will be on AWGN channel coding and physical-layer network coding applications, but time permitting, we will also touch upon other multi-user communication applications. We will provide a survey of the approaches being used to make lattice coding practical, and list some of the open research problems in this field.</p>
+							<p><strong>Biography: </strong>Navin Kashyap received the B.Tech. degree in Electrical Engineering from the Indian Institute of Technology Bombay, in 1995, the M.S. degree in Electrical Engineering from the University of Missouri-Rolla in 1997, and the M.S. degree in Mathematics and the Ph.D. degree in Electrical Engineering from the University of Michigan, Ann Arbor, in 2001. From November 2001 to November 2003, he was a postdoctoral research associate at the University of California, San Diego. From 2004 to 2010, he was on the faculty of the Department of Mathematics and Statistics at Queen's University, Kingston, Ontario. In January 2011, he joined the Department of Electrical Communication Engineering at the Indian Institute of Science, Bangalore, as an Associate Professor. His research interests lie primarily in the application of combinatorial and analytic methods in information and coding theory. Dr. Kashyap is an Associate Editor (Coding Theory) of the IEEE Transactions on Information Theory.</p>
+							<p><strong>Homepage: </strong><a href="http://www.ece.iisc.ernet.in/~nkashyap/">www.ece.iisc.ernet.in/~nkashyap/</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#Speaker3">Vincent Y. F. Tan</a>
+							</h4>
+						</div>
+						<div id="Speaker3" class="panel-collapse collapse">
+							<div class="panel-body">
+							<p class="lead"><strong>Topic: </strong>Second-order asymptotics in information theory</p>
+							<p><strong>Abstract: </strong>In this tutorial, we present a unified treatment of single- and multi-user problems in Shannon’s information theory where we depart from the requirement that the error probability decays asymptotically in the blocklength. Instead, the error probabilities for various problems are bounded above by non-vanishing constants and the spotlight is shone on achievable coding rates as functions of the growing blocklengths. This represents the study of asymptotic estimates with non-vanishing error probabilities. In particular, we focus on the so-called second-order coding rates which approximately quantify the backoff from the first-order fundamental limit at finite blocklengths.</p>
+							<p>We first discuss Strassen’s seminal result for binary hypothesis testing where the type-I error probability is non-vanishing and the rate of decay of the type-II error probability with growing number of independent observations is characterized. We subsequently use this basic hypothesis testing result to develop second-order asymptotic expansions for fixed-length lossless source and channel coding. Finally, we consider some network information theory problems for which the second-order asymptotics are known. These problems include some classes of channels with random state, the Slepian-Wolf problem and the some classes of the Gaussian interference channel.</p>
+							<p>This tutorial is designed to be relatively self-contained. The student is expected to have some background in information theory at the level of Cover and Thomas to appreciate the material.</p>
+							<p><strong>Biography: </strong>Vincent Y. F. Tan is an Assistant Professor in the Department of Electrical and Computer Engineering (ECE) and the Department of Mathematics at the National University of Singapore (NUS). He received the B.A. and M.Eng. degrees in Electrical and Information Sciences from Cambridge University in 2005. He received the Ph.D. degree in Electrical Engineering and Computer Science (EECS) from the Massachusetts Institute of Technology in 2011. He was a postdoctoral researcher in the Department of ECE at the University of Wisconsin-Madison and following that, a research scientist at the Institute for Infocomm (I2R) Research, A*STAR, Singapore. His research interests include information theory, machine learning as well as statistical signal processing.</p>
+							<p>Dr. Tan received the MIT EECS Jin-Au Kong outstanding doctoral thesis prize in 2011 and the NUS Young Investigator Award in 2014. He has authored a research monograph on Asymptotic Estimates in Information Theory with Non-Vanishing Error Probabilities in the Foundations and Trends in Communications and Information Theory Series (NOW Publishers).</p>
+							<p><strong>Homepage: </strong><a href="http://www.ece.nus.edu.sg/stfpage/vtan/">www.ece.nus.edu.sg/stfpage/vtan</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#Speaker4">Emre Telatar</a>
+							</h4>
+						</div>
+						<div id="Speaker4" class="panel-collapse collapse">
+							<div class="panel-body">
+							<p class="lead"><strong>Topic: </strong>Polar codes</p>
+							<p><strong>Abstract: </strong>TBA</p>
+							<p><strong>Biography: </strong>I. Emre Telatar received the B.Sc. degree in electrical engineering from the Middle East Technical University, Ankara, Turkey, in 1986. He received the S.M. and Ph.D. degrees in electrical engineering and computer science from the Massachusetts Institute of Technology, Cambridge, in 1988 and 1992 respectively. In 1992, he joined the Communications Analysis Research Department at AT&T Bell Laboratories (later Lucent Technologies), Murray Hill, NJ. He has been at the EPFL since 2000.</p>
+							<p>Emre Telatar was the recipient of the IEEE Information Theory Society Paper Award in 2001. He was a program co-chair for the IEEE International Symposium on Information Theory in 2002, and associate editor for Shannon Theory for the IEEE Information Theory Transactions from 2001 to 2004. He was awarded the EPFL Agepoly teaching prize in 2005.</p>
+							<p>Emre Telatar's research interests are in communication and information theories.</p>
+							<p><strong>Homepage: </strong><a href="http://people.epfl.ch/emre.telatar">people.epfl.ch/emre.telatar</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#Speaker5">Pascal O. Vontobel</a>
+							</h4>
+						</div>
+						<div id="Speaker5" class="panel-collapse collapse">
+							<div class="panel-body">
+							<p class="lead"><strong>Topic: </strong>Factor Graph Transforms</p>
+							<p><strong>Abstract: </strong>Transforms of functions play an important role in many applications, be it for analysis purposes or for computational complexity reasons. For example, the Fourier Transform of a time function immediately tells us if that function is bandlimited or not. Or, Fast-Fourier-Transform-based techniques can be used to efficiently compute the convolution of two discrete-time functions.</p>
+							<p>Given that factor graphs represent multivariate functions, it is not surprising that transforms play also an important role for factor graphs. In this presentation, we first present an example of a factor graph transform that helps in the analysis of the partition function of a factor graph. (Many important quantities, in particular w.r.t. the capacity of some channels, can be expressed as the partition function of a factor graph, and so a good understanding of this object and its approximations is a worthwhile endeavor.)</p>
+							<p>Afterwards, we present an example of a factor graph transform that leads to an efficient implementation of the sum-product algorithm message update rules for certain function nodes. (The sum-product algorithm is at the basis of decoding algorithms for low-density parity-check codes, a class of codes which appears in various telecommunication standards, and so efficient implementations of the sum-product algorithm are highly desirable.)</p>
+							<p>Where appropriate, we will point out connections of these factor graph transforms to gauge transforms in physics and to Valiant's holographic transforms in theoretical computer science.</p>
+							<p>(The presentation is planned to be self-contained; basics of factor graphs will be introduced as needed.)</p>
+							<p><strong>Biography: </strong>Pascal O. Vontobel received the Diploma degree in electrical engineering in 1997, the Post-Diploma degree in information techniques in 2002, and the Ph.D. degree in electrical engineering in 2003, all from ETH Zurich, Switzerland.</p>
+							<p>From 1997 to 2002 he was a research and teaching assistant at the Signal and Information Processing Laboratory at ETH Zurich, from 2006 to 2013 he was a research scientist with the Information Theory Research Group at Hewlett-Packard Laboratories in Palo Alto, CA, USA, and since 2014 he has been an Associate Professor at the Department of Information Engineering at the Chinese University of Hong Kong. Besides this, he was a postdoctoral research associate at the University of Illinois at Urbana-Champaign (2002-2004), a visiting assistant professor at the University of Wisconsin-Madison (2004-2005), a postdoctoral research associate at the Massachusetts Institute of Technology (2006), and a visiting scholar at Stanford University (2014). His research interests lie in information theory, data science, communications, and signal processing.</p>
+							<p>Dr. Vontobel has been an Associate Editor for the IEEE Transactions on Information Theory (2009-2012) and an Awards Committee Member of the IEEE Information Theory Society (2013-2014). Currently, he is an Associate Editor for the IEEE Transactions on Communications, a Distinguished Lecturer of the IEEE Information Theory Society, and a TPC Co-Chair of the upcoming 2016 IEEE International Symposium on Information Theory. He has been on the technical program committees of several international conferences and has co-organized several topical workshops, most recently a workshop at Princeton University on "Counting, Inference, and Optimization on Graphs." Moreover, he has been three times a plenary speaker at international information and coding theory conferences and has been awarded the ETH medal for his Ph.D. dissertation.</p>
+							<p><strong>Homepage: </strong><a href="https://sites.google.com/site/pascalvontobel/">sites.google.com/site/pascalvontobel/</a></p>
+							</div>
+						</div>
+					</div>
+										
+				</div>
+				
+				<hr>
+				
+				<h3 id="Program"><font color="grey">Tentative</font> Schedule</h3>
+				<ul>
+					<li>Hostel check-in can be made in the afternoon of 7th June. It will follow with ice-breaking activities in the evening.</li>
+					<li>Hostel check-out shall be made by the morning of 13th June.</li>
+				</ul>
+				
+				<ul>
+					<li>"<strong>Lucky speakers</strong>": participants will vote for the four posters they liked the most in the first two days, and the corresponding participants will get a chance to give 20 minute talks each. Prizes for being nominated.</li>
+					<li><strong>Open problem session</strong>: speakers, but also students, will post open problems on piazza, and we'll use piazza to vote on which problems get discussed. Prize(s) for the "most interesting questions from participants" (participant voting).</li>
+					<li><strong>Video competition</strong>: participants will have spent the week preparing short (2-minute) videos on any topic related to information theory.
+						<a class="btn btn-default btn-xs" href="https://www.youtube.com/watch?v=IMF8qMVho_A" role="button">example 1</a>
+						<a class="btn btn-default btn-xs" href="https://www.youtube.com/watch?v=vBBtReiUCmk" role="button">example 2</a>
+						<a class="btn btn-default btn-xs" href="http://ita.ucsd.edu/workshop/15/ITAVision.php" role="button">example 3</a>
+					</li>
+				</ul>	
+				
+			</div>
+		  </div>
+	  </div>
+	</div>
+	
+	<div class="container">
+        <div class="timetable" data-days="5" data-hours="8">
+            <ul class="tt-events">
+                <li class="tt-event btn-success" data-id="10" data-day="0" data-start="0" data-duration="1.5">
+                    AS Applied Maths (ASAMath 1)<br />
+                    09:00 - 10:30<br />
+                    C318 ACL Lecture</li>
+                <li class="tt-event btn-success" data-id="11" data-day="0" data-start="1.6667" data-duration="1.5">
+                    A2 Statistics (A2Stat 2)<br />
+                    10:40 - 12:10<br />
+                    C310 ACL Lecture</li>
+                <li class="tt-event btn-primary" data-id="12" data-day="0" data-start="4.1667" data-duration="1.5">
+                    A2 Pure Maths (A2PMath 1)<br />
+                    13:10 - 14:40<br />
+                    B125 ACL Tutorial</li>
+                <li class="tt-event btn-warning" data-id="13" data-day="0" data-start="5.6667" data-duration="1.8333">
+                    Marking<br />
+                    14:40 - 16:30<br />
+                    Self managed time</li>
+                <li class="tt-event btn-danger" data-id="14" data-day="0" data-start="6" data-duration="0.25">
+                    Bob Smith<br />
+                    15:00 - 15:15<br />
+                    Meeting</li>
+                <li class="tt-event btn-danger" data-id="15" data-day="0" data-start="6.75" data-duration="0.25">
+                    Jane Jones<br />
+                    15:45 - 16:00<br />
+                    Meeting</li>
+                <li class="tt-event btn-warning" data-id="20" data-day="1" data-start="0" data-duration="1.6667">
+                    Marking<br />
+                    09:00 - 10:40<br />
+                    Self managed time</li>
+                <li class="tt-event btn-success" data-id="21" data-day="1" data-start="1.6667" data-duration="1.5">
+                    AS Pure Maths (ASPMath)<br />
+                    10:40 - 12:10<br />
+                    C300 ACL Lecture</li>
+                <li class="tt-event btn-danger" data-id="22" data-day="1" data-start="3.1667" data-duration="0.25">
+                    Fred Brown<br />
+                    12:10 - 12:25<br />
+                    Meeting</li>
+                <li class="tt-event btn-success" data-id="23" data-day="1" data-start="4.1667" data-duration="1.5">
+                    AS Applied Maths (ASAMath 1)<br />
+                    13:10 - 14:40<br />
+                    C318 ACL Lecture</li>
+                <li class="tt-event btn-primary" data-id="24" data-day="1" data-start="5.8334" data-duration="1.5">
+                    A2 Statistics (A2Stat 2)<br />
+                    14:50 - 16:20<br />
+                    B121 ACL Tutorial</li>
+                <li class="tt-event btn-info" data-id="30" data-day="2" data-start="0" data-duration="8">
+                    Open day</li>
+                <li class="tt-event btn-primary" data-id="31" data-day="2" data-start="0" data-duration="1.5">
+                    AS Applied Maths (ASAMath 1)<br />
+                    09:00 - 10:30<br />
+                    C318 ACL Tutorial</li>
+                <li class="tt-event btn-primary" data-id="32" data-day="2" data-start="1.6667" data-duration="1.5">
+                    A2 Statistics (A2Stat 2)<br />
+                    10:40 - 12:10<br />
+                    C310 ACL Tutorial</li>
+                <li class="tt-event btn-success" data-id="33" data-day="2" data-start="4.1667" data-duration="1.5">
+                    A2 Pure Maths (A2PMath 1)<br />
+                    13:10 - 14:40<br />
+                    B125 ACL Lecture</li>
+                <li class="tt-event btn-success" data-id="34" data-day="2" data-start="5.8334" data-duration="1.5">
+                    AS Pure Maths (ASPMath)<br />
+                    14:50 - 16:20<br />
+                    B125 ACL Lecture</li>
+                <li class="tt-event btn-warning" data-id="40" data-day="3" data-start="0" data-duration="3">
+                    Marking<br />
+                    09:00 - 12:00<br />
+                    Marking</li>
+                <li class="tt-event btn-danger" data-id="41" data-day="3" data-start="3" data-duration="1.75">
+                    Planning meeting<br />
+                    12:00 - 13:45<br />
+                    A223 Meeting</li>
+                <li class="tt-event btn-danger" data-id="42" data-day="3" data-start="5" data-duration="0.5">
+                    Fred Brown<br />
+                    14:00 - 14:30<br />
+                    B137 Viva</li>
+                <li class="tt-event btn-danger" data-id="43" data-day="3" data-start="5.5" data-duration="0.5">
+                    Bob Smith<br />
+                    14:30 - 15:00<br />
+                    B137 Viva</li>
+                <li class="tt-event btn-danger" data-id="44" data-day="3" data-start="6" data-duration="0.5">
+                    Jane Jones<br />
+                    15:00 - 15:30<br />
+                    B137 Viva</li>
+                <li class="tt-event btn-danger" data-id="45" data-day="3" data-start="6.5" data-duration="0.5">
+                    Harry Franks<br />
+                    15:30 - 16:00<br />
+                    B137 Viva</li>
+                <li class="tt-event btn-info" data-id="50" data-day="4" data-start="0" data-duration="8">
+                    Not working</li>
+            </ul>
+            <div class="tt-times">
+                <div class="tt-time" data-time="0">
+                    09<span class="hidden-phone">.00</span></div>
+                <div class="tt-time" data-time="1">
+                    10<span class="hidden-phone">.00</span></div>
+                <div class="tt-time" data-time="2">
+                    11<span class="hidden-phone">.00</span></div>
+                <div class="tt-time" data-time="3">
+                    12<span class="hidden-phone">.00</span></div>
+                <div class="tt-time" data-time="4">
+                    13<span class="hidden-phone">.00</span></div>
+                <div class="tt-time" data-time="5">
+                    14<span class="hidden-phone">.00</span></div>
+                <div class="tt-time" data-time="6">
+                    15<span class="hidden-phone">.00</span></div>
+                <div class="tt-time" data-time="7">
+                    16<span class="hidden-phone">.00</span></div>
+            </div>
+            <div class="tt-days">
+                <div class="tt-day" data-day="0">
+                    M<span class="hidden-phone">on</span></div>
+                <div class="tt-day" data-day="1">
+                    T<span class="hidden-phone">ue</span></div>
+                <div class="tt-day" data-day="2">
+                    W<span class="hidden-phone">ed</span></div>
+                <div class="tt-day" data-day="3">
+                    T<span class="hidden-phone">hu</span></div>
+                <div class="tt-day" data-day="4">
+                    F<span class="hidden-phone">ri</span></div>
+            </div>
+        </div>
+    </div>
+
+	
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    
+	<script type="text/javascript" src="js/jquery-latest.js"></script>
+    <script type="text/javascript" src="js/jquery.ba-resize.js"></script>
+    <script type="text/javascript" src="js/bootstrap-tooltip.js"></script>
+    <script type="text/javascript" src="js/bootstrap-collapse.js"></script>
+    <script type="text/javascript" src="js/tribal.js"></script>
+    <script type="text/javascript" src="js/tribal-shared.js"></script>
+    <script type="text/javascript" src="js/tribal-timetable.js"></script>
+	
+	<script src="./dist/js/bootstrap.min.js"></script>
+
+	<script type="text/javascript">		
+		$(".tooltip-examples a").tooltip({
+			placement : 'top'
+		});
+	</script>
+  </body>
+</html>
