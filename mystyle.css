@@ -157,6 +157,7 @@ p{
 img{
 	max-width: 100%;
 }
+
 .content{
 	/*margin-bottom: 100px;*/
 	/*min-height: 600px;*/
@@ -167,11 +168,8 @@ img{
 
 .sponsors{
 	width: 80px;
-	/*margin: 20px 20px;*/
-
-}
-.sponsor{
 	margin:20px;
+
 }
 
 #sponsors{
@@ -181,11 +179,7 @@ img{
 	font-size: 1.4em;
 	color: #7c7c7c;
 }
-/*
-h4{
-	text-align: center;
-	color: #7c7c7c;
-}*/
+
 .important{
 	color:#0085A7;
 	font-weight: bold;
