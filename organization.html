@@ -30,15 +30,15 @@
     
 	div p{
 	margin: 0 50% 5% 0;
-	}
-	
-	#director .panel{
-	
+  height:155px;
+  overflow: scroll;
 	}
 	
     .info{
       height:75px;
     }
+
+
     .panel div{
     position: relative;
     top:-80px;
@@ -52,25 +52,25 @@
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu0">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">JRMF HK 2017</a>
+          <a class="navbar-brand" href="./index.html#">JRMF HK 2017</a>
         </div>
-        <div class="collapse navbar-collapse" id="menu0">
+        <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li><a href="./index.html">Home</a></li>
-			<li><a href="./registration.html">Registration</a></li>
-            <li><a href="./program.html">Program</a></li>
-            <li><a href="./logistic.html">Venue & Travel</a></li>
-			<li class="active"><a href="./organization.html">Organization</a></li>
+            <li><a href="./gallery.html">Gallery</a></li>
+            <li><a href="./logistic.html">Venue &amp; Travel</a></li>
+            <li class="active"><a href="./organization.html">Organization</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
+
 
 	<div class="container">
 	  <br><br><br>
@@ -93,7 +93,7 @@
       
 	  
        <div class="panel">
-        <img src=" http://assets.fathead.com/products/61/61-61690.jpg" class="sponsors" height="175" width = "160">
+        <img src=" ./img/shen.jpg" class="sponsors" height="175" width = "160">
           <div class = "info">
             <div >
               <h4>Mr. Shen Jian   <span class="label label-default">Co-Director</span></h4>
@@ -110,7 +110,40 @@
 		
 
 
-		<h3>Math Circle Mentor</h3>
+    <h3>Advisor</h3>
+    <br>
+    <div class="panel" >
+          <img src="./img/tonychan.jpg" class="sponsors" height="175" width="160">
+          <div class = "info">
+            <div >
+              <h4>Dr. Tony Chan</h4>
+              <h4>Chinese University of Hong Kong</h4>
+              
+            </div>
+            <div id="sitBio" >
+              <p><strong>Biography:</strong> Professor Tony F Chan became the 3rd President of HKUST on 1 September 2009. Under his leadership, HKUST’s global visibility and recognition has significantly increased, with wide international media coverage, strategic partnerships established with world-renowned institutions, and invitations to global platforms such as the World Economic Forum in Davos. President Tony F Chan received his BS and MS degrees in Engineering from Caltech and his PhD in Computer Science from Stanford University.</p>
+              </div>
+            </div>
+        </div>
+
+     <div class="panel" >
+          <img src="./img/marksaul.png" class="sponsors" height="170" width="165">
+          <div class = "info">
+            <div >
+              <h4>Dr. Mark Saul</h4>
+              <h4>Julia Robinson Math Festival</h4>
+              
+            </div>
+            <div id="sitBio" >
+              <p><strong>Biography:</strong> Mark Saul is the Executive Director of the Julia Robinson Math Festival(JRMF). 
+              Before this, Saul has worked as Director of Competitions for the Mathematical Association of America, which runs the largest math contest program in the country.
+              Saul has been a senior scholar for the John Templeton Foundation, guiding their portfolio in gifted education. He was also a program officer for the National Science Foundation, where his portfolio included programs in mathematics curriculum, in teacher professional development, and the Presidential Awards for Excellence in Mathematics and Science Teaching. He is a 1984 recipient of that award.</p>
+              </div>
+            </div>
+        </div>
+        
+
+		<h3>Facilitator</h3>
     <br>
     <div class="p">
         <div class="panel">
@@ -128,19 +161,6 @@
             </div>
         </div>
       
-        <div class="panel" >
-          <img src="./img/sit.jpg" class="sponsors" height="175" width="160">
-          <div class = "info">
-            <div >
-              <h4>Dr. Tony Sit</h4>
-              <h4>Chinese University of Hong Kong</h4>
-              
-            </div>
-            <div id="sitBio" >
-              <p><strong>Biography:</strong> TBD</p>
-              </div>
-            </div>
-        </div>
 
         <div class="panel" >
         <img src="./img/savir.jpg" class="sponsors" width="160" height="170">
@@ -151,8 +171,38 @@
               
             </div>
             <div id="savirBio" >
-              <p><strong>Biography:</strong> Mr. Nathan Savir have been active in the Princeton University Alumni Club since 2013 and vice president since 2016. The club organizes educational, networking and volunteering events for Princeton alumni in Hong Kong, works with the Alumni Schools Committee to arrange alumni interviews for all Princeton applicants in the region, and engages in outreach to local schools.
+              <p><strong>Biography:</strong> Mr. Nathan Savir received his degree in Mathematics from Princeton University in 2009. He has been active at the Princeton University Alumni Club since 2013 and has been vice president since 2016. The club organizes educational, networking and volunteering events for Princeton alumni in Hong Kong, works with the Alumni Schools Committee to arrange alumni interviews for all Princeton applicants in the region, and engages in outreach to local schools.
 </p>
+              </div>
+            </div>
+        </div>
+
+
+<div class="panel" >
+          <img src="http://assets.fathead.com/products/61/61-61690.jpg" class="sponsors" height="175" width="160">
+          <div class = "info">
+            <div >
+              <h4>Dr. Cassandra Lee</h4>
+              <h4>Chinese University of Hong Kong</h4>
+              
+            </div>
+            <div id="sitBio" >
+              <p><strong>Biography:</strong> TBD</p>
+              </div>
+            </div>
+        </div>
+
+
+        <div class="panel" >
+          <img src="http://assets.fathead.com/products/61/61-61690.jpg" class="sponsors" height="175" width="160">
+          <div class = "info">
+            <div >
+              <h4>Mr. Koon Beng Lee</h4>
+              <h4>Singapore International School (Hong Kong)</h4>
+              
+            </div>
+            <div id="sitBio" >
+              <p><strong>Biography:</strong> TBD</p>
               </div>
             </div>
         </div>
@@ -162,11 +212,11 @@
           <div class = "info">
             <div >
               <h4>Mr. YU Pei Duo</h4>
-              <h4>Chinese University of Hong Kong</h4>
+              <h4>City University of Hong Kong</h4>
               
             </div>
             <div id="yuBio" >
-              <p><strong>Biography:</strong> Pei Duo received the master and bachelor degree for applied mathematics from National Chiao Tung University. Pei Duo is a PhD student at the department of computer science at CityU.</p>
+              <p><strong>Biography:</strong> Pei Duo received the master and bachelor degree for applied mathematics from National Chiao Tung University. Pei Duo is a PhD student at the department of computer science at City University of Hong Kong.</p>
               </div>
             </div>
         </div>
@@ -183,7 +233,10 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="./dist/js/bootstrap.min.js"></script>
+  <script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+  <script src="./dist/js/bootstrap-image-gallery.min.js"></script>
+  
   </body>
 </html>
